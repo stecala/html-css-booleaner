@@ -1,6 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: rgb(219, 210, 241);
+}
+
+#banner{
+    background-color: darkkhaki;
+}
+
+h1{
+    margin-top: -10px;
+    width:50%;
+    background-color: rgb(135, 212, 193);
+    color:rgb(255, 255, 255);
+}
+
+.sottotitolo{
+    
+    color:rgb(255, 255, 255);
+    background-color: cadetblue;
+    border-top: 10px;
+    font-size: 25px;
+    border: cadetblue solid;
+    position: relative;
+    margin-left: 57%;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#data{
+    color:rgb(255, 255, 255);
+    background-color: cadetblue;
+    margin-left: 57%;
+    width: 43%;
+    display: inline-block;
+    text-align: center;
+}
+
+.container{
+    display: block;
+    width: 60%;
+    margin: -50px;
+    background-color: rgb(247, 182, 159);
+}
+
+.immagini{
+    width: 49%;
+}
+
+.didascalia{
+    background-color: rgb(185, 240, 102);
+    width: 43%;
+    display: block;
+    margin-left: 57%;
+    margin-top: -15%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#primo_p{
+    display: block;
+    background-color: blanchedalmond;
+    margin-top: 220px;
+    width: 49%;
+    padding:20px;
+}
+
+#elenco{
+    display: block;
+    width: 49%;
+    margin-left: 51%;
+    margin-top: -78px;
+    background-color: rgb(228, 123, 155);
+}
+
+#tabella{
+    display: block;
+    margin-top: 50px;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+   color: white;
+   background-color: dodgerblue;
+   text-align: left;
+}
+
+#th_big{
+    width: 60%;
+}
+
+.colore_tab {
+    background-color: lightblue;
+}
+
+#ultimo_p{
+    margin-top: 1%;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#cont_img1{
+    display: block;
+    background-image: url(../img/monitor.jpg);
+    width: 49%;
+    height: 200px;
+}
+
+#cont_img2{
+    display: block;
+    background-image: url(../img/graph.jpg);
+    width: 49%;
+    height: 200px;
+    margin-left: 51%;
+    margin-top: -200px;
+}
+
+.titoletto{
+    color: white;
+    font-weight: bolder;
+
+}
