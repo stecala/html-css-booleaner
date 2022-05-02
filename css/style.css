@@ -10,13 +10,14 @@
 #banner {
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    min-height: 180px;
+    min-height: 15%;
     background-color: dodgerblue;
 }
 
 #logo{  
-    width: 15%;
+    width: 30%;
     padding-left: 2%;
+    padding-top: 10%;
 
 }
 
@@ -25,12 +26,12 @@ h1{
     font-size: 40px;
 }
 
-main {
+main,footer {
     padding: 2%;
 }
  
 .sottotitolo{
-    color:rgb(66, 66, 66)
+    color:rgb(83, 80, 80)
 }
 
 #data{
@@ -84,4 +85,26 @@ thead {
 
 .colore_tab {
     background-color: lightblue;
+}
+
+#cont_img1{
+    background-image: url(../img/monitor.jpg);
+    width: 270px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#cont_img2{
+    background-image: url(../img/graph.jpg);
+    width: 270px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.titoletto{
+    padding-left: 2%;
+    
+    color: white;
+    font-size: 28px;
+    
 }
