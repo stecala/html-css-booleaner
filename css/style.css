@@ -13,13 +13,12 @@
     background-color: dodgerblue;
     height: 180px;
     min-height: 12%;
+    padding-left: 2%;
+    padding-top: 80px;
 }
 
 #logo{  
     width: 300px;
-    padding-left: 2%;
-    padding-top: 80px;
-
 }
 
 h1{
