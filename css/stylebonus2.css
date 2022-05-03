@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#banner {
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-color: dodgerblue;
+    height: 180px;
+    min-height: 12%;
+}
+
+#logo{  
+    width: 300px;
+    padding-left: 2%;
+    padding-top: 80px;
+
+}
+
+h1{
+    margin: 0px;
+    font-size: 40px;
+}
+
+main,footer {
+    padding-left: 15%;
+    padding-right: 15%;;
+}
+ 
+.sottotitolo{
+    color:rgb(83, 80, 80)
+}
+
+#data{
+    color:rgb(66, 66, 66)
+}
+
+a { 
+    text-decoration: none;
+    color: blue; 
+}
+
+#data {
+    font-size: 12px;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.immagini{
+    width: 49%;
+}
+
+.didascalia{
+    font-size: 11px;
+}
+
+.sezione {
+    margin: 10px 0 10px 0;
+}
+
+.ev-yellow {
+    background-color: yellow;
+}
+
+ul{
+    margin-top: 0%;
+    padding: 2%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+   color: white;
+   background-color: dodgerblue;
+   text-align: left;
+}
+
+#th_big{
+    width: 60%;
+}
+
+.colore_tab {
+    background-color: lightblue;
+}
+
+#cont_img1{
+    background-image: url(../img/monitor.jpg);
+    width: 270px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#cont_img2{
+    background-image: url(../img/graph.jpg);
+    width: 270px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.titoletto{
+    padding-left: 2%;
+    
+    color: white;
+    font-size: 28px;
+    
+}
